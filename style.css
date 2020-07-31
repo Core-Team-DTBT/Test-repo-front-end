@@ -106,6 +106,8 @@
       }
       
       .body {
+        display: flex;
+        flex-direction: column;
           height: 100%;
           width: 100%;
           padding-bottom: 20px;
@@ -146,7 +148,9 @@
           to {
               fill: #a1a1a1;
           }
-          @keyframes topic-fill {
+        }   
+
+    @keyframes topic-fill {
               from {
                   fill: transparent;
               }
