@@ -10,6 +10,7 @@
     width: 100%;
     position: fixed;
     top: 0px;
+    z-index: 2;
 }
 
 nav {
@@ -63,6 +64,7 @@ nav h1 {
 }
 
 .inner-body {
+    z-index: 1;
     border: #0e0e0e;
     background-color: #e9ecff;
     box-shadow: 15px 13px rgba(124, 124, 124, 0.234);
@@ -149,6 +151,15 @@ h4 {
     padding-top: 70px;
     background-image: rgba(220, 244, 253, 0.774);
 }
+
+
+.background-img img{
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+
+}
+
 
 
 /*.background {
