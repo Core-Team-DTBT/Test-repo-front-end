@@ -1,0 +1,59 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .parallax {
+        min-height: 350px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .image-1 {
+        background-image: url(/images/soft-1.jpg);
+        opacity: 90%;
+    }
+    
+    .image-2 {
+        background-image: url(/images/soft-2.jpg);
+        opacity: 90%;
+    }
+    
+    .image-3 {
+        background-image: url(/images/soft-3.jpg);
+        opacity: 90%;
+    }
+    
+    section {
+        padding: 40px 100px;
+        text-align: center;
+    }
+    
+    .heading-1 {
+        background-color: rgb(44, 6, 36);
+        color: rgb(192, 192, 192);
+    }
+    
+    .heading-2 {
+        background-color: rgb(8, 11, 37);
+        color: rgb(192, 192, 192);
+    }
+    
+    .heading-3 {
+        background-color: rgb(37, 37, 37);
+        color: rgb(192, 192, 192);
+    }
+    
+    .para {
+        padding-top: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
