@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parallax {
+    min-height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url(/images/cont3.jpg);
+    opacity: 90%;
+}
+
+.img-2 {
+    background-image: url(/images/cont2.jpg);
+    opacity: 90%;
+}
+
+.img-3 {
+    background-image: url(/images/cont01.jpg);
+    opacity: 90%;
+}
+
+section {
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.head-1 {
+    background-color: rgb(247, 211, 7);
+    color: rgb(48, 2, 2);
+}
+
+.head-2 {
+    background-color: rgb(75, 133, 241);
+    color: rgb(22, 2, 68);
+}
+
+.head-3 {
+    background-color: rgb(247, 99, 1);
+    color: rgb(46, 1, 1);
+}
+
+.para {
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
